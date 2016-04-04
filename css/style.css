@@ -1,11 +1,12 @@
 h1 {
     font-size: 250%;
+    text-shadow: 3px 3px #000;
 }
 
 .slide {
   position: relative;
-  padding: 20vh 10%;
-  min-height: 50vh;
+  padding: 30vh 0;
+  min-height: 60vh;
   width: auto;
   box-sizing: border-box;
 	transform-style: inherit;
@@ -44,7 +45,7 @@ h1 {
 
 #title {
    background-image: url(../img/bayview_banner.jpg);
-   background-attachment: fixed;  
+   background-attachment: fixed;
 }
 
 #slide1:before {
