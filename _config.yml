@@ -42,18 +42,42 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.png"
 
+#Events Entries#
+events:
+  Data Connect Debut:
+    - month: "August"
+    - date: "28"
+    - event_link: "https://dataconnect.berkeley.edu"
+    - event_description: "The debut for the data connect initiative"
+
+  Data Forum:
+    - month: "Semptember"
+    - date: "9"
+    - event_link: "https://dataconnect.berkeley.edu"
+    - event_description: "A great forum to learn about data science"
+  Prof. DeNero`s Talk:
+    - month: "Janurary"
+    - date: "17"
+    - event_link: "https://dataconnect.berkeley.edu"
+    - event_description: "I love my dogs"
+  Kaggle ML competition:
+    - month: "March"
+    - date: "15"
+    - event_link: "https://dataconnect.berkeley.edu"
+    - event_description: "Can you recognize it?"
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Berkeley Data Connect
   email: "youremail@domain.com"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
   twitter: yourname   # eg. daattali
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
-  stackoverflow: yourlink  # eg. "3943160/daattali"
+  stackoverflow:  # eg. "3943160/daattali"
  
 # Select which links to show in the footer
 footer-links-active:
@@ -67,7 +91,7 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "berkeley.edu"
+url-pretty: "dataconnect.berkeley.edu"
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
