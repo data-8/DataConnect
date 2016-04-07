@@ -408,7 +408,7 @@ img {
   position: relative;
 }
 
-.date .binds {
+/*.date .binds {
   position: absolute;
   height: 10px;
   width: 60px;
@@ -419,7 +419,7 @@ img {
   left: 0;
   right: 0;
   margin: auto;
-}
+}*/
 
 .date .month {
   background: #555;
