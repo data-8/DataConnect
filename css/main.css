@@ -19,7 +19,7 @@ jumbo-img {
 }
 p {
   line-height: 1.5;
-
+  position: relative;
   margin-left: 10%;
   margin-right: 10%;
 }
