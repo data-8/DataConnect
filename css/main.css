@@ -351,6 +351,7 @@ img {
   margin:0.5%;
 }
 
+
 .high_light_windows_container .news_content{
   height:224px;
   text-align: left;
@@ -381,6 +382,11 @@ img {
 .high_light_windows_container .event_info{
   width:100%;
   margin:1%;
+}
+
+#view-all{
+  float: right;
+  font-size: 13px;
 }
 
 .high_light_windows_container .event_info a:link{
