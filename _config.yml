@@ -4,8 +4,9 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://dataconnect.berkeley.edu"
-baseurl: "/homepage"
+url: "https://github.com/data-8/"
+baseurl: "/"
+>>>>>>> af4c351cd6a3e3d0324846381b161da5bc6cc22c
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -29,10 +30,10 @@ gems:
 
 # List of links in the navigation bar
 navbar-links:
-  About: "about"
-  Academics: "academics"
-  Projects: "projects"
-  News & Events: "http://yahoo.com"
+  About: "http://dataconnect.berkeley.edu/about/"
+  Academics: "http://dataconnect.berkeley.edu/academics/"
+  Projects: "http://dataconnect.berkeley.edu/projects/"
+  News & Events: "http://dataconnect.berkeley.edu/events/"
   Resources:
     - Campus Group: "http://berkeley.edu"
     - Academic Support: "https://pages.github.com/"
