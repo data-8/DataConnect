@@ -19,7 +19,7 @@ jumbo-img {
 }
 p {
   line-height: 1.5;
-
+  position: relative;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -351,6 +351,7 @@ img {
   margin:0.5%;
 }
 
+
 .high_light_windows_container .news_content{
   height:224px;
   text-align: left;
@@ -383,6 +384,11 @@ img {
   margin:1%;
 }
 
+#view-all{
+  float: right;
+  font-size: 13px;
+}
+
 .high_light_windows_container .event_info a:link{
   color:black;
 }
@@ -402,7 +408,7 @@ img {
   position: relative;
 }
 
-.date .binds {
+/*.date .binds {
   position: absolute;
   height: 10px;
   width: 60px;
@@ -413,7 +419,7 @@ img {
   left: 0;
   right: 0;
   margin: auto;
-}
+}*/
 
 .date .month {
   background: #555;

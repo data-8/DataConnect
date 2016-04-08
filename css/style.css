@@ -7,7 +7,7 @@ h1 {
   position: relative;
   padding: 30vh 0;
   min-height: 60vh;
-  width: auto;
+  width: 100%;
   box-sizing: border-box;
 	transform-style: inherit;
 }

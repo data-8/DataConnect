@@ -2,7 +2,7 @@
 layout: default
 title: Main page
 ---
-<div id="title" class="slide header" >
+<div id="title" class="slide header" style="margin:0; width:100%;">
   <h1>Main Page</h1>
         <h2 class = "text-center">DataConnect@Berkeley</h2>
 
@@ -31,7 +31,9 @@ title: Main page
 				{% include event_entry.html item = item %}
 			
 			{% endfor %}
+			<span id = "view-all">  <a href = "https://www.yahoo.com"> View all events >> </a>  </span>
 		</div>
+
 	</div>
 </div>
 
