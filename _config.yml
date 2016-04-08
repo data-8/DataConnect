@@ -51,7 +51,6 @@ events:
     - end_time: "6 PM"
     - event_link: "https://dataconnect.berkeley.edu"
     - event_description: "The debut for the data connect initiative"
-
   Data Forum:
     - month: "September"
     - date: "9"

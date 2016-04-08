@@ -30,12 +30,12 @@ p a {
   color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 100;
   text-shadow: none;
 }
 a {
   color: #008AFF;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 a:hover,
 a:focus {
@@ -426,6 +426,7 @@ table tr td :last-child {
 
 /* --- Buttons --- */
 .button {
+  font-family: 'Lora', 'Times New Roman', serif;
   display: inline-block;
   border-radius: 4px;
   background-color: #F5775F;

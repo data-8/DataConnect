@@ -27,9 +27,3 @@ subtitle: Why you'd want to go on a date with data science
     </li>
   {% endfor %}
 </ul>
-
-
-
-### What goes on this page?
-
-* probably not much--it's the main page so we want it to be as free of clutter as possible. Marry the design aspects from Kate's homepage
