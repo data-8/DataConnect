@@ -104,7 +104,6 @@ img {
   }
 }
 
-
 /* --- Footer --- */
 
 footer {
@@ -426,8 +425,8 @@ table tr td :last-child {
 
 
 /* --- Buttons --- */
-
 .button {
+  display: inline-block;
   border-radius: 4px;
   background-color: #F5775F;
   border: none;
@@ -435,8 +434,8 @@ table tr td :last-child {
   text-align: center;
   font-size: 18px;
   padding: 10px;
-  width: auto;
   height: auto;
+  width: auto;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;

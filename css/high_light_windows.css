@@ -30,12 +30,13 @@
   float:left;
   width:calc(97%/3);
   height: 300px;
-  background: #f3f3f3;
-  padding-top: 10px;
+/*  background: #f3f3f3;
+*/  padding-top: 10px;
   font-size: 20px;
   display:table;
   margin:0.5%;
 }
+
 
 .high_light_windows_container .news_content{
   height:224px;
@@ -54,19 +55,37 @@
 .high_light_windows_container .event_entry{
   float:center;
   text-align: left;
-  height:30%;
+  height:40%;
   width:97%;
   margin:0.5%;
   background: #ffffff;
 }
 
-.high_light_windows_container .event_entry p{
+/*.high_light_windows_container .event_entry p{
   font-size: 11px;
+}*/
+
+.event_entry{
+  font-size: 10px;
 }
 
 .high_light_windows_container .event_info{
   width:100%;
   margin:1%;
+}
+
+#time{
+
+  font-size: 14px;
+}
+
+#event-description{
+  font-size: 12px;
+}
+#view-all{
+  float: right;
+  font-size: 13px;
+  text-decoration: none;
 }
 
 .high_light_windows_container .event_info a:link{
@@ -82,13 +101,14 @@
   width: 25%;
   height: 95%;
   margin: 1% auto;
+  margin-right: 2%;
   background: #fff;
   text-align: center;
   font-family: 'Helvetica', sans-serif;
   position: relative;
 }
 
-.date .binds {
+/*.date .binds {
   position: absolute;
   height: 10px;
   width: 60px;
@@ -99,7 +119,7 @@
   left: 0;
   right: 0;
   margin: auto;
-}
+}*/
 
 .date .month {
   background: #555;

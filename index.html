@@ -24,13 +24,14 @@ title: Main page
 
 	</div>
 	<div class = "events">
-		<h3>Events</h3>
+		<h3>Upcoming Events</h3>
 		<div class= "event_entry_container">
 			{% for item in site.events %}
-				
 				{% include event_entry.html item = item %}
 			
 			{% endfor %}
+			<span id = "view-all">  <a href = "http://dataconnect.berkeley.edu/events/"> View all events >> </a>  </span>
 		</div>
+
 	</div>
 </div>

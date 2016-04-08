@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "https://github.com/data-8/"
-baseurl: "/Homepage"
+baseurl: "/"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -29,10 +29,10 @@ gems:
 
 # List of links in the navigation bar
 navbar-links:
-  About: "About"
-  Academics: "Academics"
-  Projects: "Projects"
-  News & Events: "Events"
+  About: "http://dataconnect.berkeley.edu/about/"
+  Academics: "http://dataconnect.berkeley.edu/academics/"
+  Projects: "http://dataconnect.berkeley.edu/projects/"
+  News & Events: "http://dataconnect.berkeley.edu/events/"
   Resources:
     - Campus Group: "http://berkeley.edu"
     - Academic Support: "https://pages.github.com/"
@@ -47,22 +47,30 @@ events:
   Data Connect Debut:
     - month: "August"
     - date: "28"
+    - start_time: "5 PM"
+    - end_time: "6 PM"
     - event_link: "https://dataconnect.berkeley.edu"
     - event_description: "The debut for the data connect initiative"
 
   Data Forum:
-    - month: "Semptember"
+    - month: "September"
     - date: "9"
+    - start_time: "6 PM"
+    - end_time: "7:30 PM"
     - event_link: "https://dataconnect.berkeley.edu"
     - event_description: "A great forum to learn about data science"
   Prof. DeNero`s Talk:
-    - month: "Janurary"
+    - month: "January"
     - date: "17"
+    - start_time: "3 PM"
+    - end_time: "4:30 PM"
     - event_link: "https://dataconnect.berkeley.edu"
     - event_description: "I love my dogs"
   Kaggle ML competition:
     - month: "March"
     - date: "15"
+    - start_time: "6 PM"
+    - end_time: "7 PM"
     - event_link: "https://dataconnect.berkeley.edu"
     - event_description: "Can you recognize it?"
 

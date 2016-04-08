@@ -7,8 +7,9 @@
 					<h1 class="day">{{ item[1][1].date }}</h1>
 				</div>
 				<div class = "event_info">
-					<a href="{{ item[1][2].event_link }}"><h3>{{item[0]}}</h3></a>
-					<p>{{ item[1][3].event_description }}</p>
+					<a href="{{ item[1][4].event_link }}"><h3>{{item[0]}}</h3></a>
+					<span id = "time"><b> {{item[1][2].start_time}} - {{item[1][3].end_time}}</b> <br> 
+					<span id = "event-description">{{ item[1][5].event_description }}</p1>
 				</div>
 			</div>
 
