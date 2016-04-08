@@ -11,6 +11,7 @@
   font-size: 16px;
   letter-spacing: 1px;
   display:inline;
+  opacity: .8;
 }
 
 .navbar-custom .navbar-brand,
@@ -31,8 +32,7 @@
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0 15px;
-      padding-bottom: -10px;
+    padding: 15px 0 5px;
     -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
     transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -40,7 +40,7 @@
 
   .navbar-custom.top-nav-short {
     padding: 0px;
-      padding-top: 8px;
+      padding-top: 5px;
   }
 }
 
@@ -95,7 +95,6 @@
   }
 }
 
-
 .navbar-custom .rectangle-container {
   opacity: 1;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -118,38 +117,38 @@
 .navbar-custom .rectangle-container .rectangle {
   float: left;
     width:16.8%;
-    height:10px;
+    height:8px;
     background: #DAE657;
 }
 .navbar-custom .rectangle-container .rectangle1 {
   float: left;
     width:16.8%;
-    height:10px;
+    height:8px;
     background:#01B3A5;
 }
 .navbar-custom .rectangle-container .rectangle2 {
   float: left;
     width:16.8%;
-    height:10px;
+    height:8px;
     background:#DF2460;
 }
 .navbar-custom .rectangle-container .rectangle3 {
   float: left;
     width:16.8%;
-    height:10px;
+    height:8px;
     background:#F5775F;
 
 }
 .navbar-custom .rectangle-container .rectangle4 {
   float: left;
     width:16.8%;
-    height:10px;
+    height:8px;
     background:#9EAE2F;
 }
 .navbar-custom .rectangle-container .rectangle5 {
   float: left;
     width: 16%;
-    height:10px;
+    height:8px;
     background:#04B0DA;
 
 }
