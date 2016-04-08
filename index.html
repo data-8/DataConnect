@@ -11,7 +11,7 @@ title: Main page
 
 <div class = "high_light_windows_container">
 	<div class = "news">
-		<h3 style="font-size:18px"><b>News Bulletin</b></h3>
+		<h3 class = "heading">News Bulletin</h3>
 		<div class = "news_content">
 			<p>
 				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesettin
@@ -20,11 +20,11 @@ title: Main page
 		</div>
 	</div>
 	<div class = "featured">
-		<h3 style="font-size:18px"><b> Featured </b></h3>
+		<h3 class= "heading"> Featured </h3>
 
 	</div>
 	<div class = "events">
-		<h3 style="font-size:18px"><b>Upcoming Events</b></h3>
+		<h3 class = "heading">Upcoming Events</h3>
 		<div class= "event_entry_container">
 			{% for item in site.events %}
 				{% include event_entry.html item = item %}

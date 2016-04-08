@@ -315,6 +315,13 @@ img {
     border-width: 0 1px 1px;
   }
 }
+
+/*News, Featured, Events title */
+.heading{
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.8;
+}
 /* High light windows */
 .high_light_windows_container{
   width: 100%;
