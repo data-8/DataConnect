@@ -11,6 +11,7 @@ body {
   color: #404040;
   position: relative;
   background: #FFF;
+  text-shadow: none;
 }
 
 jumbo-img {
@@ -24,10 +25,12 @@ p {
   position: relative;
   margin-left: 10%;
   margin-right: 10%;
+  text-shadow: none;
 }
 p a {
   /* text-decoration: underline */
   color: #008AFF;
+  text-shadow: none;
 }
 h1,h2,h3,h4,h5,h6 {
   font-weight: 100;
@@ -36,6 +39,7 @@ h1,h2,h3,h4,h5,h6 {
 a {
   color: #008AFF;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: none;
 }
 a:hover,
 a:focus {
