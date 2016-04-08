@@ -29,10 +29,10 @@ gems:
 
 # List of links in the navigation bar
 navbar-links:
-  About: "about"
-  Academics: "academics"
-  Projects: "projects"
-  News & Events: "events"
+  About: "http://dataconnect.berkeley.edu/about/"
+  Academics: "http://dataconnect.berkeley.edu/academics/"
+  Projects: "http://dataconnect.berkeley.edu/projects/"
+  News & Events: "http://dataconnect.berkeley.edu/events/"
   Resources:
     - Campus Group: "http://berkeley.edu"
     - Academic Support: "https://pages.github.com/"
