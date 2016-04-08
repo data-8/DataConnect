@@ -1,5 +1,7 @@
 @import url("pygment_highlights.css");
 @import url("style.css");
+@import url("high_light_windows.css");
+@import url("navbar.css");
 
 /* --- General --- */
 
@@ -102,6 +104,7 @@ img {
   }
 }
 
+<<<<<<< HEAD
 /* --- Navbar --- */
 
 .navbar-custom {
@@ -495,6 +498,7 @@ img {
     right: 10px; 
     bottom: 10px; 
 }
+
 /* --- Footer --- */
 
 footer {
@@ -812,4 +816,47 @@ table tr td :first-child {
 table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
+}
+
+
+/* --- Buttons --- */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F5775F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

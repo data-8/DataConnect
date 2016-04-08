@@ -20,6 +20,14 @@ subtitle: Why you'd want to go on a date with data science
     - [Course Map]({{ site.baseurl }}/resources/course-map/)
 - [Contact]({{ site.baseurl }}/contact)
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 
 
 ### What goes on this page?
