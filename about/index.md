@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About | Data Connect at Berkeley
 subtitle: Why you'd want to go on a date with data science
 slide: wow
 ---
