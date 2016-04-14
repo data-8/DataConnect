@@ -6,7 +6,7 @@
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -432,7 +432,7 @@ table tr td :last-child {
 
 /* --- Buttons --- */
 .button {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: inline-block;
   border-radius: 4px;
   background-color: #F5775F;
