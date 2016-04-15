@@ -5,12 +5,12 @@ h1 {
 
 .slide {
   position: relative;
-  padding: 10vh 0;
-  height: 100vh;
+  padding: 10vh;
+  height: 60vh;
   width: 100%;
   box-sizing: border-box;
 	transform-style: inherit;
-    top: -100px;
+    top: -50px;
 }
 
 
@@ -45,8 +45,9 @@ h1 {
 }
 
 #title {
-   background-image: url(../img/1.svg);
+   background-image: url(../img/bayview_banner.jpg);
    background-attachment: fixed;
+    padding-top: 100px;
    position:relative;
 }
 
@@ -57,7 +58,7 @@ h1 {
 }
 
 #slide2 {
-  background-image: url("http://lorempixel.com/640/480/abstract/3/");
+  background-image: url(../img/laptop.jpg);
   background-attachment: fixed;
 }
 
