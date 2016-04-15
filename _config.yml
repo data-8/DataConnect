@@ -29,6 +29,7 @@ gems:
 
 # List of links in the navigation bar
 navbar-links:
+  Home: "http://dataconnect.berkeley.edu"
   About: "http://dataconnect.berkeley.edu/about/"
   Academics: "http://dataconnect.berkeley.edu/academics/"
   Projects: "http://dataconnect.berkeley.edu/projects/"
