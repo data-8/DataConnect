@@ -6,7 +6,7 @@ h1 {
 .slide {
   position: relative;
   padding: 10vh;
-  height: 60vh;
+  height: 65vh;
   width: 100%;
   box-sizing: border-box;
 	transform-style: inherit;
@@ -45,7 +45,7 @@ h1 {
 }
 
 #title {
-   background-image: url(../img/bayview_banner.jpg);
+   background-image: url(../img/filtered-visualization.png);
    background-attachment: fixed;
     padding-top: 100px;
    position:relative;
