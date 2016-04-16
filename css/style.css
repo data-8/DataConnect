@@ -10,7 +10,7 @@ h1 {
   width: 100%;
   box-sizing: border-box;
 	transform-style: inherit;
-    top: -50px;
+    top: -6vh;
 }
 
 
@@ -47,7 +47,7 @@ h1 {
 #title {
    background-image: url(../img/filtered-visualization.png);
    background-attachment: fixed;
-    padding-top: 100px;
+    padding-top: 12vh;
    position:relative;
 }
 
