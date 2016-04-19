@@ -47,7 +47,7 @@ h1 {
 #title {
    background-image: url(../img/filtered-visualization.png);
    background-attachment: fixed;
-    padding-top: 12vh;
+  padding-top: 12vh;
    position:relative;
 }
 
@@ -58,8 +58,12 @@ h1 {
 }
 
 #slide2 {
-  background-image: url(../img/laptop.jpg);
-  background-attachment: fixed;
+  background-image: url(../img/DataWeek.jpg);
+  /*background-attachment: local;
+
+  width: 100%;*/
+   display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden; 
 }
 
 #slide3:before {
