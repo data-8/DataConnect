@@ -29,14 +29,33 @@ gems:
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://dataconnect.berkeley.edu"
-  About: "http://dataconnect.berkeley.edu/about/"
-  Academics: "http://dataconnect.berkeley.edu/academics/"
-  Projects: "http://dataconnect.berkeley.edu/projects/"
-  News & Events: "http://dataconnect.berkeley.edu/events/"
+  Home: ""
+  Academics:
+  - Course Map: "coursemap"
+  - Data 8: "data8"
+  - Connector Courses: "connectors"
+  - Data 100: "data100"
+  People:
+  - Faculty: "faculty"
+  - Spotlights: "Spotlights"
+  - Community: "community"
+  - DESP Student Team: "despstudents"
+  Projects:
+  - Research: "research"
+  - Education: "education"
+  - Infrastructure: "infrastructure"
+  Events:
+  - Featured: "featuredevents"
+  - Campus: "campusevents"
+  - Local: "localevents"
+  Diversity:
+  - Clubs: "clubs"
+  - Scholarships: "scholarships"
+  - Careers: "career"
   Resources:
-    - Campus Group: "http://berkeley.edu"
-    - Academic Support: "https://pages.github.com/"
+  - Training: "training"
+  - Consulting: "consulting"
+  - Technology: "technology"
 
 
 # Image to show in the navigation bar - image must be a square (width = height)

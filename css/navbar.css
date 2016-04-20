@@ -116,28 +116,28 @@
 
 .navbar-custom .rectangle-container .rectangle {
   float: left;
-    width:16.8%;
+    width:14.3%;
     height:8px;
  /*   background: #DAE657;*/
     background: #0c588b;
 }
 .navbar-custom .rectangle-container .rectangle1 {
   float: left;
-    width:16.8%;
+    width:14.3%;
     height:8px;
 /*    background:#01B3A5;
 */    background: #3597d3;
 }
 .navbar-custom .rectangle-container .rectangle2 {
   float: left;
-    width:16.8%;
+    width:14.3%;
     height:8px;
 /*    background:#DF2460;
 */    background: #49ba6f;
 }
 .navbar-custom .rectangle-container .rectangle3 {
   float: left;
-    width:16.8%;
+    width:14.3%;
     height:8px;
 /*    background:#F5775F;*/
     background: #f0c514;
@@ -145,17 +145,24 @@
 }
 .navbar-custom .rectangle-container .rectangle4 {
   float: left;
-    width:16.8%;
+    width:14.3%;
     height:8px;
 /*    background:#9EAE2F;
 */    background: #dea427;
 }
 .navbar-custom .rectangle-container .rectangle5 {
   float: left;
-    width: 16%;
+    width: 14.3%;
     height:8px;
  /*   background:#04B0DA;*/
     background: #157598;
+
+}
+.navbar-custom .rectangle-container .rectangle6 {
+  float: left;
+    width: 14.2%;
+    height:8px;
+    background: #ed2548;
 
 }
 
