@@ -1,0 +1,52 @@
+---
+layout: default
+title: Data Connect at Berkeley
+---
+
+<div id="title" class="slide header" style="margin:0; width:100%;margin-bottom:-3vh; height:100px;">
+   <h1 style="font-size: 10vh;">Data Science At Berkeley</h1>
+    <a href="#learnmore" class="button" style="margin-top: 5vh;"><span>Learn more</span></a>
+  </div> 
+
+<div class = "high_light_windows_container" style="padding-bottom: 52vh; height:525px;width:100vw; padding-top:10vh;">
+	<div class = "icons" style="border-right:2px #d6d6d6 solid; height:520px; padding:0;">
+        <img src = "../img/science-noun.png" alt = "science" style="height: 8vh; width: 8vh;">
+            <p style="padding-top: 2vh;">Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in.</p>
+		</div>
+    <div class = "icons" style="height:520px">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDataScience8%2Fposts%2F988752244549109%3A0&width=500" width="97%" height="520" style="border:none;overflow:scroll;margin:0;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>
+		</div>
+    <div class = "icons" style="border-left:2px #d6d6d6 solid;height:520px">
+        <img src = "../img/science-noun.png" alt = "science" style="height: 8vh; width: 8vh;">
+        </div>
+</div>
+
+
+<div class = "high_light_windows_container">
+	<div class = "news">
+		<h3 class = "heading">News Bulletin</h3>
+		<div class = "news_content">
+			<p>
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesettin
+			</p>
+			<p>erat ac nunc pharetra fringilla quis id quam. Vivamus efficitur euismod est, at interdum turpis. Cras dui elit, fringilla quis felis</p>
+		</div>
+	</div>
+	<div class = "featured">
+		<h3 class= "heading"> Featured </h3>
+		<div id="slideshow">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDataScience8%2Fposts%2F988752244549109%3A0&width=500" width="97%" height="520" style="border:none;overflow:scroll;margin:0;" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>
+	</div>
+    </div>
+	<div class = "events">
+		<h3 class = "heading">Upcoming Events</h3>
+		<div class= "event_entry_container">
+			{% for item in site.events %}
+				{% include event_entry.html item = item %}
+			
+			{% endfor %}
+		</div>
+		<span id = "view-all">  <a href = "http://dataconnect.berkeley.edu/events/"> View all events >> </a>  </span>
+
+	</div>
+</div>

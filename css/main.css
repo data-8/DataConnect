@@ -5,6 +5,10 @@
 
 /* --- General --- */
 
+html {
+  height: 100%;
+    overflow: hidden;}
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -12,6 +16,13 @@ body {
   position: relative;
   background: #FFF;
   text-shadow: none;
+      margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 jumbo-img {

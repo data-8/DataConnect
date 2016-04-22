@@ -1,18 +1,11 @@
-h1 {
-    font-size: 250%;
-    text-shadow: 3px 3px #000;
-}
-
 .slide {
   position: relative;
-  padding: 10vh;
-  height: 65vh;
-  width: 100%;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
 	transform-style: inherit;
-    top: -6vh;
 }
-
 
 .slide:before {
   content: "";
@@ -21,6 +14,13 @@ h1 {
   bottom: 0;
   left:0;
   right:0;
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
 }
 
 .slide:nth-child(2n) .title {
@@ -45,29 +45,27 @@ h1 {
 }
 
 #title {
-   background-image: url(../img/filtered-visualization.png);
-   background-attachment: fixed;
-  padding-top: 12vh;
-   position:relative;
+  background-image: url(../img/filtered-visualization.png);
+   background-attachment: fixed;  
 }
 
-#about-slide {
+#slide1:before {
   background-image: url(../img/meeting.jpg);
-  background-attachment: fixed;
-  position:relative;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
 }
 
 #slide2 {
-  background-image: url(../img/DataWeek.jpg);
-  /*background-attachment: local;
-
-  width: 100%;*/
-   display: inline-block; /* change the default display type to inline-block */
-    overflow: hidden; 
+  background-image: url(../img/desk-tech.jpg);
+  background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url("http://lorempixel.com/640/480/abstract/5/");
+  background-image: url(../img/laptop.jpg);
   transform: translateZ(-1px) scale(2);
   z-index:-1;
+}
+
+#slide4 {
+  background: #222;
 }
