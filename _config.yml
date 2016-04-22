@@ -30,24 +30,10 @@ gems:
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Academics:
-  - Course Map: "coursemap"
-  - Data 8: "data8"
-  - Connector Courses: "connectors"
-  - Data 100: "data100"
-  People:
-  - Faculty: "faculty"
-  - Spotlights: "Spotlights"
-  - Community: "community"
-  - DESP Student Team: "despstudents"
-  Projects:
-  - Research: "research"
-  - Education: "education"
-  - Infrastructure: "infrastructure"
-  Events:
-  - Featured: "featuredevents"
-  - Campus: "campusevents"
-  - Local: "localevents"
+  Academics: "academics"
+  People: "people"
+  Projects: "project"
+  Events: "events"
   Diversity:
   - Clubs: "clubs"
   - Scholarships: "scholarships"
