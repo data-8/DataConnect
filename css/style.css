@@ -45,23 +45,23 @@
 }
 
 #title {
-  background-image: url(../img/DSC00249.JPG);
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.004.jpeg);
    background-attachment: fixed;  
 }
 
 #slide1:before {
-  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.002.jpeg);
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.003.jpeg);
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide2 {
-  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.003.jpeg);
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.002.jpeg);
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.004.jpeg);
+  background-image: url(../img/DSC00249.JPG);
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
