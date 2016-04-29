@@ -31,17 +31,10 @@ gems:
 navbar-links:
   Home: ""
   Academics: "academics"
-  People: "people"
+
   Projects: "project"
-  Events: "events"
-  Diversity:
-  - Clubs: "clubs"
-  - Scholarships: "scholarships"
-  - Careers: "career"
-  Resources:
-  - Training: "training"
-  - Consulting: "consulting"
-  - Technology: "technology"
+  Community: "community"
+  Resources: "resources"
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
