@@ -69,3 +69,38 @@
 #slide4 {
   background: #222;
 }
+
+
+#acaSlide {
+  background: #00BFFF;
+   background-attachment: fixed;  
+}
+
+#data8Slide1 {
+  background: #FFFFFF;
+   background-attachment: fixed;  
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+}
+.container div {
+    height: 175px;
+}
+
+.column-left {
+    width: 33%;
+    left: 0;
+    position: absolute;
+}
+.column-center {
+    width: 34%;
+    margin-left: 33%;
+    position: absolute;
+}
+.column-right {
+    width: 33%;
+    right: 0;
+    position: absolute;
+}
