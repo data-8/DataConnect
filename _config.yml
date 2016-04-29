@@ -31,9 +31,9 @@ gems:
 navbar-links:
   Home: ""
   Academics: "academics"
-  People: "people"
+
   Projects: "project"
-  Diversity: "diversity"
+  Community: "community"
   Resources: "resources"
 
 
