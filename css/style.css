@@ -45,23 +45,23 @@
 }
 
 #title {
-  background-image: url(../img/filtered-visualization.png);
+  background-image: url(../img/DSC00249.JPG);
    background-attachment: fixed;  
 }
 
 #slide1:before {
-  background-image: url(../img/meeting.jpg);
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.002.jpeg);
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide2 {
-  background-image: url(../img/desk-tech.jpg);
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.003.jpeg);
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url(../img/laptop.jpg);
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.004.jpeg);
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
