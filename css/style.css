@@ -81,6 +81,18 @@
    background-attachment: fixed;  
 }
 
+#data8Slide2 {
+  background: #00BFFF;
+  background-attachment: fixed;  
+}
+#data8Slide3 {
+  background: #9E7BFF;
+  background-attachment: fixed;  
+}
+#data8Slide4 {
+  background: #6AFB92;
+  background-attachment: fixed;  
+}
 .container {
     position: relative;
     width: 1000px;
