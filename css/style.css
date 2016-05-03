@@ -45,7 +45,7 @@
 }
 
 #title {
-  background-image: url(../img/DSC00249.JPG);
+  background-image: url(../img/{{ page.image }});
    background-attachment: fixed;  
 }
 
