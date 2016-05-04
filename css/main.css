@@ -41,6 +41,8 @@ p {
   margin-right: 10%;
   text-shadow: none;
   text-align: left;
+  padding-left:10vw;
+    padding-right:10vw;
 }
 p a {
   /* text-decoration: underline */
@@ -59,6 +61,8 @@ h2,h3,h4,h5,h6 {
   text-shadow: none;
     margin-left: 8%;
   margin-right: 8%;
+    padding-left:10vw;
+    padding-right:10vw;
 }
 a {
   color: #008AFF;
@@ -79,6 +83,8 @@ a:hover {
 blockquote {
   color: #808080;
   font-style: italic;
+    padding-left:10vw;
+    padding-right:10vw;
 }
 hr.small {
   max-width: 100px;
@@ -86,6 +92,14 @@ hr.small {
   border-width: 4px;
   border-color: inherit;
   border-radius: 3px;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left:10vw;
+    margin-left: 8%;
+    font-size: 2.5vh;
 }
 
 .main-content {

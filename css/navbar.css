@@ -12,6 +12,7 @@
   letter-spacing: 1px;
   display:inline;
   opacity: .8;
+    padding: 10px;
 }
 
 .navbar-custom .navbar-brand,
