@@ -73,7 +73,7 @@
 
 #about-slide {
   background-image: url(../img/Berkeley%20Data%20Connect%20Photos.002.jpeg);
-   background-attachment: fixed;  
+   background-attachment: fixed;
 }
 
 #academics {
@@ -82,8 +82,10 @@
 }
 
 #acaSlide {
-  background: #00BFFF;
-   background-attachment: fixed;  
+  background: #3597d3;
+   background-attachment: fixed;
+    min-height: 50vh !important;
+    padding: 20vh 10% !important;
 }
 
 #data8Slide1 {
