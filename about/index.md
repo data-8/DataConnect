@@ -2,7 +2,7 @@
 layout: page
 title: About
 subtitle: Why you'd want to go on a date with data science
-image: DSC00249.jpg
+id: about-slide
 ---
 
 <div class = "high_light_windows_container" style="padding-bottom: 52vh; height:525px;width:100vw; padding-top:10vh;">

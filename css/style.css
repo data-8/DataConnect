@@ -45,7 +45,7 @@
 }
 
 #title {
-  background-image: url(../img/{{ page.image }});
+  background-image: url(../img/DSC00249.JPG);
    background-attachment: fixed;  
 }
 
@@ -67,9 +67,19 @@
 }
 
 #slide4 {
-  background: #222;
+  background-color: #003262;
+  background-attachment: fixed;
 }
 
+#about-slide {
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.002.jpeg);
+   background-attachment: fixed;  
+}
+
+#academics {
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.003.jpeg);
+   background-attachment: fixed;  
+}
 
 #acaSlide {
   background: #00BFFF;
@@ -77,7 +87,7 @@
 }
 
 #data8Slide1 {
-  background: #FFFFFF;
+  background-image: url(../img/Berkeley%20Data%20Connect%20Photos.003.jpeg);
    background-attachment: fixed;  
 }
 
