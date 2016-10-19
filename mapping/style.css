@@ -1,0 +1,17 @@
+circle.node {
+  cursor: pointer;
+  stroke: #CCCCCC;
+  stroke-width: 0px;
+  box-sizing: border-box;
+  stroke-location: inside;
+}
+
+text.title {
+  font: 13px tahoma;
+}
+
+line.link {
+  fill: none;
+  stroke: #C1C1C1;
+  stroke-width: 1px;
+}
