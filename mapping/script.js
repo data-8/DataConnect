@@ -169,6 +169,12 @@ function color(d) {
   }
 }
 
+$('.top').on('click', function() {
+	$parent_box = $(this).closest('.box');
+	$parent_box.siblings().find('.bottom').hide();
+	$parent_box.find('.bottom').toggle();
+});
+
 // Returns a list of all nodes under the root.
 function flatten(root) {
   var nodes = [],
