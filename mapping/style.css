@@ -15,3 +15,23 @@ line.link {
   stroke: #C1C1C1;
   stroke-width: 1px;
 }
+
+.container .box {
+  float: left;
+  width: 150px;
+  margin: 20px;
+}
+
+.container .box .top {
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.container .box .bottom {
+  padding: 12px;
+  background-color: red;
+  color: white;
+  display: none;
+}
