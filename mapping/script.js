@@ -28,8 +28,9 @@ update();
 function update() {
   var nodes = flatten(root),
     links = d3.layout.tree().links(nodes);
-
-  // Restart the force layout.
+  
+  if (!nodes){
+      // Restart the force layout.
   force
     .nodes(nodes)
     .links(links)
@@ -104,6 +105,9 @@ function update() {
 
   // Exit any old titles.
   title.exit().remove();
+  
+  }
+
 }
 
 function tick() {
