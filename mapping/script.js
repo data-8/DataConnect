@@ -5,6 +5,12 @@ var w = 600,
   link,
   root;
 
+$('.top').on('click', function() {
+	$parent_box = $(this).closest('.box');
+	$parent_box.siblings().find('.bottom').hide();
+	$parent_box.find('.bottom').toggle();
+});
+
 var force = d3.layout.force()
   .on("tick", tick)
   .charge(function(d) {
@@ -169,11 +175,6 @@ function color(d) {
   }
 }
 
-$('.top').on('click', function() {
-	$parent_box = $(this).closest('.box');
-	$parent_box.siblings().find('.bottom').hide();
-	$parent_box.find('.bottom').toggle();
-});
 
 // Returns a list of all nodes under the root.
 function flatten(root) {
