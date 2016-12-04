@@ -1,6 +1,12 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
+.test{
+	    border-radius: 50%;
+	    max-height: 400px;
+	    max-width:400px;
+	    margin-left: 40px;
+}
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -3031,7 +3037,7 @@
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
-		background-image: url(https://hd.unsplash.com/photo-1461280360983-bd93eaa5051b);
+        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),  url(https://hd.unsplash.com/photo-1461280360983-bd93eaa5051b);
     	width: 100%;
     	max-width: 100%;
     	background-size: cover;
@@ -3120,7 +3126,7 @@
 			color: black;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 2280px) {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
