@@ -2215,6 +2215,7 @@ header, #content, #middle, #sidebar {
 
 				ul.actions.vertical li > * {
 					margin-bottom: 0;
+					margin-top: 10px
 				}
 
 			ul.actions.vertical.small li {
