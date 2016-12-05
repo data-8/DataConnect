@@ -2107,7 +2107,7 @@ body {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4c5c96;
+			border-color: #6f0f0f;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2588,7 +2588,7 @@ body {
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #4c5c96;
+			background-color: #6f0f0f;
 			box-shadow: none;
 		}
 
@@ -2956,7 +2956,7 @@ body {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #6f0f0f;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
