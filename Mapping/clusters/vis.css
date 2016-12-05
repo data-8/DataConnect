@@ -1,0 +1,43 @@
+body { 
+    padding-top: 65px; 
+    font: 14px Arial;
+}
+
+.row{
+	margin-left: 5px;
+}
+
+.img-responsive{
+  margin: 0 auto;
+}
+
+#econ,#bio-science,#hum,#math,#cs,#engr,#soc,#phys{
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+      text-align:center
+
+}
+.text-center {
+   text-align:center
+}
+
+
+/* D3 CSS */
+circle.node {
+  cursor: pointer;
+  stroke: #CCCCCC;
+  stroke-width: 0px;
+  box-sizing: border-box;
+  stroke-location: inside;
+}
+
+text.title {
+  font: 13px tahoma;
+}
+
+line.link {
+  fill: none;
+  stroke: #C1C1C1;
+  stroke-width: 1px;
+}
