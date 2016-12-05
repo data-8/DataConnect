@@ -1649,7 +1649,7 @@ body {
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: #d6af7e;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -1729,7 +1729,7 @@ body {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: greenyellow !important;
+			color: yellow !important;
 		}
 
 		a.special:not(.button) {
@@ -2753,7 +2753,7 @@ body {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(34, 51, 64, 0.91);
+		background-color: rgb(132, 89, 73);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -2956,7 +2956,7 @@ body {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #d67d54;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3148,7 +3148,7 @@ body {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url(http://www.adweek.com/files/imagecache/node-detail/news_article/project-isaac-hed-2013_0.jpg);
+				background-image: linear-gradient(to top, rgba(88, 67, 45, 0.8), rgba(49, 41, 36, 0.8)), url(http://www.adweek.com/files/imagecache/node-detail/news_article/project-isaac-hed-2013_0.jpg);
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3300,13 +3300,13 @@ body {
 	}
 
 	.wrapper {
-		background-color: #293d4c;
+		background-color: #d67d54;
 		margin: 6.5em 0;
 		position: relative;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23293d4c%3B' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23d67d54%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3394,11 +3394,11 @@ body {
 			}
 
 		.wrapper.spotlight {
-			background-color: #a0825d;
+			background-color: #d6af7e;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23a0825d%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23d6af7e%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight .inner {
@@ -3650,7 +3650,7 @@ body {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url(http://www.adweek.com/files/imagecache/node-detail/news_article/project-isaac-hed-2013_0.jpg);
+			background-image: linear-gradient(to top, rgba(88, 67, 45, 0.8), rgba(47, 32, 22, 0.8)), url(http://www.adweek.com/files/imagecache/node-detail/news_article/project-isaac-hed-2013_0.jpg);
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
