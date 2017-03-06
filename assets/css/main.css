@@ -1548,6 +1548,7 @@ header, #content, #middle, #sidebar {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+/*Type*/
 
 	body, input, select, textarea {
 		color: #fff;
