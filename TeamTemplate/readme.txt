@@ -1,1 +1,0 @@
-This page is a general template for all team pages, so that the website overall is more structured and uniform.
