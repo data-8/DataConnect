@@ -1764,13 +1764,24 @@ header, #content, #middle, #sidebar {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5 {
 		color: #ffffff;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
+	}
+
+	h6 {
+		font-family: Raleway, Helvetica, sans-serif;
+		font-weight: 900;
+		/*font-weight: bold;*/
+		letter-spacing: 0.1em;
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 1.0em;
+		color:#7b8fd6;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1800,10 +1811,6 @@ header, #content, #middle, #sidebar {
 	}
 
 	h5 {
-		font-size: 0.7em;
-	}
-
-	h6 {
 		font-size: 0.7em;
 	}
 
@@ -2185,13 +2192,17 @@ header, #content, #middle, #sidebar {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			color: #EDEFF2;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
 			letter-spacing: .05em;
     		text-shadow: 2px 3px 0px #353B3C, 2px 2px 0px rgba(0, 0, 0, 0.2);
 
+		}
+		
+		/*only use this if there is a slogan after the team name in h2*/
+		#banner h2 .slogan {
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
 
 		#banner p {
@@ -2495,7 +2506,7 @@ header, #content, #middle, #sidebar {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+				/*border-radius: 100%;*/
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
@@ -2503,7 +2514,7 @@ header, #content, #middle, #sidebar {
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
+					/*border-radius: 100%;*/
 					width: 100%;
 				}
 
