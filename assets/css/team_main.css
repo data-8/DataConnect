@@ -2832,12 +2832,14 @@ header, #content, #middle, #sidebar {
 
 .pdt2 {
 	display: table-cell;
-	width: 280px;
+	width: 300px;
 	margin: auto;
 	text-align: center;
-	margin-right: 5px;
-/*	position: relative;
-*/}
+	/*margin-right: 5px;*/
+	padding-left: 8px;
+	padding-right: 8px;
+	/*position: relative;*/
+}
 
 .pdtphoto {
 	border-radius: 100%;
