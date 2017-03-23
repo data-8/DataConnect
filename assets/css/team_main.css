@@ -2849,6 +2849,7 @@ header, #content, #middle, #sidebar {
 
 .pdtphoto2 {
 	border-radius: 100%;
+	object-fit: cover;
 	height: 180px;
 	width: 180px;
 }
