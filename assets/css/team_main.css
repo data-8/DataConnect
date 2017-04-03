@@ -1592,6 +1592,8 @@ header, #content, #middle, #sidebar {
 				margin-top: -1.75em;
 				position: relative;
 				width: calc(100% + 3.5em);
+				object-fit:cover;
+				height: 242px;
 			}
 
 				.features article .image img {
