@@ -2528,43 +2528,51 @@ header, #content, #middle, #sidebar {
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+				background-color: rgba(144, 154, 164, 1);
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(0, 0, 0, 0.07);
+				background-color: rgba(124, 134, 144, 1);
 			}
 
 			.features li:nth-child(3) {
-				background-color: rgba(0, 0, 0, 0.105);
+				background-color: rgba(120, 130, 140, 1);
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
+				background-color: rgba(100, 110, 120, 1);
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
+				background-color: rgba(95, 105, 115, 1);
 			}
 
 			.features li:nth-child(6) {
-				background-color: rgba(0, 0, 0, 0.21);
+				background-color: rgba(75, 85, 95, 1);
 			}
 
 			.features li:nth-child(7) {
-				background-color: rgba(0, 0, 0, 0.245);
+				background-color: rgba(70, 80, 90, 1);
 			}
 
 			.features li:nth-child(8) {
-				background-color: rgba(0, 0, 0, 0.28);
+				background-color: rgba(50, 60, 70, 1);
 			}
 
 			.features li:nth-child(9) {
-				background-color: rgba(0, 0, 0, 0.315);
+				background-color: rgba(45, 55, 65, 1);
 			}
 
 			.features li:nth-child(10) {
-				background-color: rgba(0, 0, 0, 0.35);
+				background-color: rgba(25, 35, 45, 1);
+			}
+
+			.features li:nth-child(11) {
+				background-color: rgba(20, 30, 40, 1);
+			}
+
+			.features li:nth-child(12) {
+				background-color: rgba(124, 134, 144, 1);
 			}
 
 			.features li:before {
@@ -2779,13 +2787,16 @@ header, #content, #middle, #sidebar {
 			}
 
 		.wrapper.alt {
-			padding: 0;
+			padding: 2em;
+			/*padding: 4em 4em 2em 6em ;*/
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c7ebe8;
-			height: 550px;
+			background-color: rgba(50,60,70, .95);
+			/*background-color: #2e3842;*/
+			/*color: #c7ebe8;*/
+			height: 475px;
+			padding:2em;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2808,17 +2819,15 @@ header, #content, #middle, #sidebar {
 				background: rgba(255, 255, 255, 0.075);
 			}
 
-			.wrapper.style1 header p {
+			.wrapper.style1 header {
 				color: #a6e0db;
 			}
 
-			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
+			.wrapper.style1 p, header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
 				border-color: rgba(0, 0, 0, 0.125);
 			}
 
-			.wrapper.style1 header.major p {
-				color: #c7ebe8;
-			}
+			
 
 			.wrapper.style1 label {
 				color: #ffffff;
@@ -2938,7 +2947,7 @@ header, #content, #middle, #sidebar {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: rgba(14,39,90,0.7);
 		}
 
 		.wrapper.style3 {
@@ -3786,10 +3795,14 @@ header, #content, #middle, #sidebar {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");*/
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://lh4.googleusercontent.com/kYvxSm4N-dmV0z0XEVsaTvaxWjJW6QHqfjCYihaH70GuK5Sgax2ZqLiu1LF_ZtCZAIF2gn_zyBuLilc=w1280-h596-rw");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3936,10 +3949,10 @@ header, #content, #middle, #sidebar {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://dmdkdk.files.wordpress.com/2014/10/sather_gate_night.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://dmdkdk.files.wordpress.com/2014/10/sather_gate_night.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://dmdkdk.files.wordpress.com/2014/10/sather_gate_night.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://dmdkdk.files.wordpress.com/2014/10/sather_gate_night.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
