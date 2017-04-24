@@ -1625,6 +1625,10 @@ header, #content, #middle, #sidebar {
 			text-decoration: none;
 		}
 
+	a:hover {
+		text-decoration: underline;
+	}
+
 	h2 {
 		line-height: 1.75em;
 	}
