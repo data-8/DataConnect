@@ -1625,7 +1625,7 @@ header, #content, #middle, #sidebar {
 			text-decoration: none;
 		}
 
-	a:hover {
+	a.under:hover {
 		text-decoration: underline;
 	}
 
