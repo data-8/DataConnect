@@ -2510,12 +2510,13 @@ header, #content, #middle, #sidebar {
 			.wrapper.spotlight .image {
 				/*border-radius: 100%;*/
 				margin: 0 3em 2em 0;
-				width: 22em;
+				width: 100%;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
 
 				.wrapper.spotlight .image img {
+					margin: 0;
 					/*border-radius: 100%;*/
 					width: 100%;
 				}
@@ -2534,7 +2535,8 @@ header, #content, #middle, #sidebar {
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
-				margin: 0 0 2em 3em;
+				margin: 0 0 2em 0em;
+				width: 100%;
 			}
 
 			.wrapper.spotlight.style2 {
